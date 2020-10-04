@@ -1,0 +1,47 @@
+.site {
+  font-family: 'Questrial', sans-serif;
+  background-color: #E8EEED;
+}
+
+header {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+  
+.card {
+  border-radius: 10px;
+  padding: .5rem;
+  list-style-type: none;
+  background-color: #F7F7F7;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 9px 18px 0 rgba(0,0,0,0.4);
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+a:link {
+  background-color: #965BD5;
+  color: white;
+  text-decoration: none;
+  padding: 8px 5px;
+}
+
+a:hover {
+  background-color: purple;
+}
